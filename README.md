@@ -7,7 +7,7 @@ This repository is all my knowledge "for now" in the Java language.
 I study systems analysis and development and currently have knowledge mainly in front-end, so I decided to use the knowledge I have to learn the Java programming language. This repository contains all of my current Java study.
 # Repository structure
 The project is organized as follows:
-* `src/`: Contains the source code files for the exercises.
+* `javatests/`: Contains the source code files for the exercises and studies.
 # Contact
 If you have any questions or suggestions regarding this project, feel free to reach out. You can contact me at [thiagosantanara654@gmail.com].
 
