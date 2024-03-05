@@ -8,6 +8,10 @@ I study systems analysis and development and currently have knowledge mainly in 
 # Repository structure
 The project is organized as follows:
 * `javatests/`: Contains the source code files for the exercises and studies.
+    * `POO/`: This folder contains studies on object-oriented programming.
+      * `Classes/`: This folder contains the template classes for creating objects.
+      * `Tests/`: This folder contains the creation of objects using the mold classes.
+
 # Contact
 If you have any questions or suggestions regarding this project, feel free to reach out. You can contact me at [thiagosantanara654@gmail.com].
 
