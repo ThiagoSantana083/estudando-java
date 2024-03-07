@@ -18,7 +18,7 @@ public class ArraySomaAndVarArgs {
 
     // Regras de uso - Só pode usar um varargs em um método. Deve ser o último em uma ordem de parâmetros
     public void somaArrayComVarArgs(int... numeros) {
-       int soma =0;
+       int soma = 0;
        for (int num: numeros) {
            soma += num;
        }
