@@ -1,7 +1,7 @@
 package javatests.POO.Classes;
 
 public class CarroClass02 {
-
+    // Estudo static
     // Modificador static faz com que os atributos ou métodos sejam apenas da classe sem necessariamente pertencer a
     // instância do objeto.
 
