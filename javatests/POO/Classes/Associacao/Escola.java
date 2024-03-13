@@ -2,7 +2,7 @@ package javatests.POO.Classes.Associacao;
 
 public class Escola {
 
-    // // Associação - um para muitos. A associação unilateral "muitos para um" em Java é um tipo de relacionamento
+    // // Associação - um para muitos. A associação unidirecional "muitos para um" em Java é um tipo de relacionamento
     // entre duas classes onde uma instância da classe "um" pode estar associada a várias instâncias da classe
     private String nome;
     private Professor[] professores;
