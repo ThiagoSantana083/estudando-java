@@ -1,6 +1,6 @@
-package javatests.POO.Tests;
+package javatests.POO.Tests.AssociacaoTests;
 
-import javatests.POO.Classes.Jogador;
+import javatests.POO.Classes.Associacao.Jogador;
 
 public class Jogador01 {
     public static void main(String[] args) {
