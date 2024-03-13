@@ -2,7 +2,8 @@ package javatests.POO.Classes.Associacao;
 
 public class Jogador {
 
-    // Associação - um para muitos. A associação "um para muitos" em Java é um tipo de relacionamento entre duas classes
+    // Associação - um para muitos. A associação unilateral "um para muitos" em Java é um tipo de relacionamento entre
+    // duas classes
     // onde uma instância da classe "um" pode estar associada a várias instâncias da classe
     private String nome;
     private Time time;
