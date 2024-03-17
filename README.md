@@ -10,7 +10,10 @@ The project is organized as follows:
 * `javatests/`: Contains the source code files for the exercises and studies.
     * `POO/`: This folder contains studies on object-oriented programming.
       * `Classes/`: This folder contains the template classes for creating objects.
+        * `Associacao/`: This folder contains studies on the subject of OOP on association
+          * `ExerciseAssociacao/`: This folder contains the files for the OOP exercise on association
       * `Tests/`: This folder contains the creation of objects using the mold classes.
+        * `AssociacaoTests/`: This folder contains the creation of test objects using the association classes in OOP studies
 
 # Contact
 If you have any questions or suggestions regarding this project, feel free to reach out. You can contact me at [thiagosantanara654@gmail.com].
