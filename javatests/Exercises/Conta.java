@@ -32,25 +32,25 @@ public class Conta {
         } else if (this.getSaldo() < 0) {
             System.out.println("Conta em débito");
         } else {
-            this.status = false;
+            this.setStatus(false);
             System.out.println("Conta fechada com sucesso");
         }
     }
 
     public void depositar (float valor) {
-        if (this.status) {
-            this.saldo += valor;
+        if (this.getStatus()) {
+            this.setSaldo(this.getSaldo() + valor);
         } else {
             System.out.println("Erro, conta não está aberta para poder depositar");
         }
 
     }
     public void sacar(float valor) {
-        if (this.status) {
-            if (this.saldo < valor) {
+        if (this.getStatus()) {
+            if (this.getSaldo() < valor) {
                 System.out.println("Saque indisponível, dinheiro para saque maior que tem na conta");
             } else {
-                this.saldo -= valor;
+                this.setSaldo(this.getSaldo() - valor);
             }
         } else {
             System.out.println("Erro, conta não está aberta para poder sacar");
@@ -58,11 +58,11 @@ public class Conta {
     }
 
     public void pagarMensalidade(String tipo) {
-        if (this.status) {
+        if (this.getStatus()) {
             if (tipo.equals("CC")) {
-                this.saldo -= 12;
+                this.setSaldo(this.getSaldo() - 12);
             } else if (tipo.equals("CP")) {
-                this.saldo -= 20;
+                this.setSaldo(this.getSaldo() - 20);
             }
         } else {
             System.out.println("Erro, conta não está aberta em nenhum tipo para pagar mensalidade");
