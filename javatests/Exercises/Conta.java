@@ -19,17 +19,17 @@ public class Conta {
         setStatus(true);
         setDono(nomeDono);
         if (tipo.equals("CC")) {
-            this.saldo = 50;
+            this.setSaldo(50);
         } else if (tipo.equals("CP")) {
-            this.saldo = 150;
+            this.setSaldo(150);
         }
     }
 
     public void fecharConta() {
-        if (this.saldo > 0) {
+        if (this.getSaldo() > 0) {
             System.out.println("Erro, conta não pode ser fechada, porque está com dinheiro então saque para fechar a " +
                     "conta");
-        } else if (this.saldo < 0) {
+        } else if (this.getSaldo() < 0) {
             System.out.println("Conta em débito");
         } else {
             this.status = false;
