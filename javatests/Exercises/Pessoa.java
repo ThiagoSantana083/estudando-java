@@ -6,7 +6,7 @@ public class Pessoa {
     private String sexo;
 
     public void fazerAniver() {
-
+        this.setIdade(this.getIdade() + 1);
     }
 
     public String getNome() {
