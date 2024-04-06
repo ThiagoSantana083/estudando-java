@@ -1,0 +1,53 @@
+Aqui estão 50 exercícios sobre Programação Orientada a Objetos (POO) em Java, abordando diferentes conceitos como lógica de programação, encapsulamento com interfaces, agregação, herança e polimorfismo:
+
+1.	Crie uma classe Pessoa com atributos nome e idade.
+2.	Implemente um método na classe Pessoa para exibir os detalhes da pessoa.
+3.	Crie uma classe Aluno que herde da classe Pessoa e tenha um atributo matricula.
+4.	Implemente um método na classe Aluno para exibir os detalhes do aluno, incluindo a matrícula.
+5.	Crie uma interface Imprimivel com um método imprimir.
+6.	Faça a classe Pessoa implementar a interface Imprimivel e implemente o método imprimir.
+7.	Faça a classe Aluno implementar a interface Imprimivel e implemente o método imprimir.
+8.	Crie uma classe Livro com atributos titulo, autor e anoPublicacao.
+9.	Implemente um método na classe Livro para exibir os detalhes do livro.
+10.	Crie uma classe Biblioteca que tenha uma lista de livros.
+11.	Implemente um método na classe Biblioteca para adicionar um livro à lista.
+12.	Implemente um método na classe Biblioteca para exibir todos os livros da lista.
+13.	Crie uma classe Funcionario com atributos nome e salario.
+14.	Implemente um método na classe Funcionario para exibir os detalhes do funcionário.
+15.	Crie uma classe Gerente que herde da classe Funcionario e tenha um atributo departamento.
+16.	Implemente um método na classe Gerente para exibir os detalhes do gerente, incluindo o departamento.
+17.	Crie uma classe Cliente com atributos nome, endereco e telefone.
+18.	Implemente um método na classe Cliente para exibir os detalhes do cliente.
+19.	Crie uma classe ContaBancaria com atributos numero, saldo e titular (do tipo Cliente).
+20.	Implemente um método na classe ContaBancaria para exibir os detalhes da conta.
+21.	Implemente métodos na classe ContaBancaria para depositar e sacar dinheiro.
+22.	Crie uma classe ContaCorrente que herde da classe ContaBancaria e tenha um atributo limiteChequeEspecial.
+23.	Implemente um método na classe ContaCorrente para exibir os detalhes da conta corrente, incluindo o limite do cheque especial.
+24.	Crie uma classe ContaPoupanca que herde da classe ContaBancaria e tenha um atributo taxaRendimento.
+25.	Implemente um método na classe ContaPoupanca para exibir os detalhes da conta poupança, incluindo a taxa de rendimento.
+26.	Crie uma classe Animal com métodos emitirSom() e mover().
+27.	Crie classes específicas para diferentes tipos de animais, como Cachorro, Gato, etc., que herdem da classe Animal e implementem os métodos emitirSom() e mover() de forma específica para cada tipo.
+28.	Implemente uma interface Voador com um método voar().
+29.	Faça com que algumas classes de animais, como Pássaro, implementem a interface Voador e implementem o método voar().
+30.	Implemente uma interface Aquatico com um método nadar().
+31.	Faça com que algumas classes de animais, como Peixe, implementem a interface Aquatico e implementem o método nadar().
+32.	Crie uma classe Veiculo com atributos marca, modelo e ano.
+33.	Implemente um método na classe Veiculo para exibir os detalhes do veículo.
+34.	Crie classes específicas para diferentes tipos de veículos, como Carro, Moto, etc., que herdem da classe Veiculo.
+35.	Implemente uma interface TransportePublico com um método cobrarTarifa().
+36.	Faça com que algumas classes de veículos, como Ônibus, implementem a interface TransportePublico e implementem o método cobrarTarifa().
+37.	Implemente uma classe Triangulo com atributos lado1, lado2 e lado3.
+38.	Implemente um método na classe Triangulo para verificar se é um triângulo válido.
+39.	Implemente métodos na classe Triangulo para calcular a área e o perímetro do triângulo.
+40.	Crie uma classe Circulo com atributo raio.
+41.	Implemente um método na classe Circulo para calcular a área do círculo.
+42.	Implemente um método na classe Circulo para calcular o perímetro do círculo.
+43.	Crie uma classe Quadrado com atributo lado.
+44.	Implemente um método na classe Quadrado para calcular a área do quadrado.
+45.	Implemente um método na classe Quadrado para calcular o perímetro do quadrado.
+46.	Crie uma classe Retangulo com atributos base e altura.
+47.	Implemente um método na classe Retangulo para calcular a área do retângulo.
+48.	Implemente um método na classe Retangulo para calcular o perímetro do retângulo.
+49.	Crie uma classe Cilindro que herde da classe Circulo e tenha um atributo altura.
+50.	Implemente um método na classe Cilindro para calcular o volume do cilindro.
+ 
