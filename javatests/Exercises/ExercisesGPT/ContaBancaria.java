@@ -19,6 +19,19 @@ public class ContaBancaria {
         System.out.println("Telefone do titular dessa conta: " + this.getTitular().getTelefone() + " e seu endereço: " + this.getTitular().getEndereco());
     }
 
+    // Exercício 21
+    public void depositar(int valor) {
+        this.setSaldo(this.getSaldo() + valor);
+    }
+
+    public void sacar(int valor) {
+        if (valor > this.getSaldo()) {
+            System.out.println("Impossível sacar valor maior que saldo");
+        } else {
+            this.setSaldo(this.getSaldo() - valor);
+        }
+    }
+
     public int getNumeroConta() {
         return numeroConta;
     }
