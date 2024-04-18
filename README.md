@@ -20,7 +20,7 @@ The project is organized as follows:
 # Contact
 If you have any questions or suggestions regarding this project, feel free to reach out. You can contact me at [thiagosantanara654@gmail.com].
 
-Happy coding!!!!!
+Happy coding!!!!!!
 
 
 
