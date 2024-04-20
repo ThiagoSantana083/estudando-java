@@ -7,6 +7,11 @@ public class Peixe extends Animal implements Aquatico{
     }
 
     @Override
+    public void emitirSom() {
+        System.out.println("Gluuu");
+    }
+
+    @Override
     public void nadar() {
         System.out.println("Nadando");
     }
