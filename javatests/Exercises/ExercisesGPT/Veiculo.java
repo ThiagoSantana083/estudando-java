@@ -1,7 +1,7 @@
 package javatests.Exercises.ExercisesGPT;
 
 public class Veiculo {
-    // Exercício 32
+    // Exercício 34
 
     private String marca;
     private String modelo;
@@ -13,7 +13,7 @@ public class Veiculo {
         this.modelo = modelo;
     }
 
-    // Exercício 33
+    // Exercício 35
     public void detalhes() {
         System.out.println("Marca do veículo: " + this.getMarca());
         System.out.println("Modelo do veículo: " + this.getModelo());
