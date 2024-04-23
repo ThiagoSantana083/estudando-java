@@ -33,7 +33,7 @@ Aqui estão 50 exercícios sobre Programação Orientada a Objetos (POO) em Java
 31.	Faça com que algumas classes de animais, como Peixe, implementem a interface Aquatico e implementem o método nadar().
 32.	Crie uma classe Veiculo com atributos marca, modelo e ano.
 33.	Implemente um método na classe Veiculo para exibir os detalhes do veículo.
-34.	Crie classes específicas para diferentes tipos de veículos, como Carro, Moto, etc., que herdem da classe Veiculo.
+34.	Crie classes específicas para diferentes tipos de veículos, como Carro, Moto, etc., que herdem da classe Veiculo..
 35.	Implemente uma interface TransportePublico com um método cobrarTarifa().
 36.	Faça com que algumas classes de veículos, como Ônibus, implementem a interface TransportePublico e implementem o método cobrarTarifa().
 37.	Implemente uma classe Triangulo com atributos lado1, lado2 e lado3.
