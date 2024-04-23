@@ -2,7 +2,7 @@ package javatests.Exercises.ExercisesGPT;
 
 public class VeiculosTest {
     public static void main(String[] args) {
-        // Instâncias dos objetos para serem testados - exercício 34-38
+        // Instâncias dos objetos para serem testados - exercício 34-36
         Carro carro = new Carro("Chevrolet", 2015, "Prisma");
         carro.detalhes();
         carro.dirigir();
