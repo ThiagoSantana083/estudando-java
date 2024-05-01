@@ -10,6 +10,7 @@ public class TiposDeDadosLista {
         nomes.add("Thiago");
         nomes.add("Heloisa");
         nomes.add("Chico");
+        nomes.add("Xavier");
 
         for (String nome : nomes) {
             System.out.println("O nome exibido é "  + nome);
