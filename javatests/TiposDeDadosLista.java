@@ -13,6 +13,7 @@ public class TiposDeDadosLista {
         nomes.add("Xavier");
         nomes.add("Xavier");
         nomes.add("Erik");
+        nomes.add("Raven");
 
         for (String nome : nomes) {
             System.out.println("O nome exibido é "  + nome);
